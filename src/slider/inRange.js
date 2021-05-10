@@ -1,7 +1,7 @@
 import * as $ from 'jquery';
 import Model from './Model/Model';
 import View from './View/View';
-import Presenter from './Controller/Controller';
+import Controller from './Controller/Controller';
 
 export default (() => {
 
