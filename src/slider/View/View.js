@@ -7,11 +7,12 @@ export default class View extends Observer {
       super();
       this.slider = document.createElement('div');
       this.slider.classList.add('inRange');
-      this.initView();
       parent.append(this.slider);
    }
 
-   initView() {
+   render(config) {
+      this.config = config;
+
       this.track = new Track(this.slider);
       this.thumb = new Thumb(this.slider);
    }

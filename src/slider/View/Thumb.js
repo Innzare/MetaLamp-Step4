@@ -9,5 +9,7 @@ export default class Thumb {
 		this.thumb = document.createElement('div');
 		this.thumb.className = `slider__thumb`;
 		this.slider.append(this.thumb);
+
+
    }
  }
